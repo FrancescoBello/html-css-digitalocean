@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+ margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+
+}
+
+.container::after{
+  content:’’;
+  display: table;
+  clear: both;
+}
+.navbar{
+  height: 70px;
+}
+ .brandimg{
+   max-height: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  margin-right: 50px;
+ }
+
+ .navbar-default .navbar-nav>li>a{
+     color: #031B4F;
+    padding-top: 30px;
+ }
+ .navbar-default .navbar-nav>li>a:hover{
+   color:   #006AFF;
+ }
+
+ .in{
+   margin-top: 7px;
+   color: #0065f2;
+   border: 1px solid #0065f2;
+
+ }
+ .up{
+   margin-top: 7px;
+   background-color: #0065f2;
+   color: white;
+ }
+ .btn{
+   margin-top: 25px;
+ }
+.in:hover{
+  color: white;
+  background-color: #0065f2;
+
+
+}
+.up:hover{
+  color: white;
+  background-color: #0065f2;
+
+
+}
+main{
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    color: white;
+}
+h1{
+  font-size: 58px;
+}
+.ftext{
+  font-size: 20px;
+}
+.box1{
+  width: 370px;
+  height: 40px;
+  background-color:  #f3f5f9;
+  color: #031b4e;
+  text-align: center;
+
+}
+h4{
+ padding-top: 10px;
+}
+.box2{
+    height: 400px;
+    width: 370px;
+    background-color: white;
+    align-items: center;
+
+}
+.name{
+  margin-top: 20px;
+}
+input{
+  width: 330px;
+    height: 48px;
+    border: 1px solid #e5e8ed;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-family: 'Sailec-Regular';
+    font-size: 16px;
+    margin-left: 20px;
+    padding-left: 10px;
+    color: #031b4e;
+
+
+}
+.upemail{
+  width: 330px;
+    height: 55px;
+    background-color: #0065f2;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid #0065f2;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.googleup{
+  width: 230px;
+    height: 55px;
+    background-color:white;
+    color:  #0065f2;
+    margin-left: 20px;
+    border: 1px solid #0065f2;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.git{
+  width: 70px;
+  height: 55px;
+  background-color:white;
+  color:  #0065f2;
+  border: 1px solid #0065f2;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
