@@ -13,7 +13,7 @@
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid transparent;
+  border: 1px solid black;
 
 }
 
@@ -160,6 +160,8 @@ h5{
 .business{
   text-decoration: none;
   color: #1633FF;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -180,7 +182,23 @@ h5{
   font-size: 20px;
 }
 
+.listhree{
+  text-decoration: none;
+  color: black;
 
+}
+.listhree:hover{
+text-decoration: none;
+color: black;
+}
+.btn-lat{
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  float: left;
+  background-color: white;
+  display: block;
+}
 .thcol{
   color: #031b4e;
   font-size: 18px;
@@ -248,49 +266,73 @@ background-color:#031b4e;
   text-decoration: none;
     color: #0069ff;
 }
-.tab{
-  display: inline-block;
-  max-width: 1000px;
-}
+
 
 .code{
   color: white;
-  width: 70px;
+
 }
 
 .location{
 color: #5b6987;
-width: 250px;
+
+
 }
 
 .test{
   text-decoration: none;
-  width: 80px;
+
+  color: #00d7d2;
+
+}
+
+.countries{
+  height: 30px;
+}
+
+.test:hover{
+  color: #1633FF;
+  text-decoration: none;
+
 }
 
 
-li{
-  list-style-type: disc;
+.seven{
+  background-color: #f3f5f9;
+   text-align: center;
+   align-items: center;
+   height: 800px;
+}
+.psvn{
+   color: #031b4e;
+   font-size: 18px;
+   padding: 0px 55px ;
+}
+
+.box3{
+
+ border: 1px solid white;
+ background-color: white;
+ border-radius: 10px;
+}
+
+.fa-arrow{
+  vertical-align: middle;
 }
 
 
+.pbox{
+  font-size: 25px;
+  color: #5b6987;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sign{
+  margin-top: 100px;
+  color: #5b6987;
+}
+.cto{
+  margin-bottom: 100px;
+}
 
 
 
