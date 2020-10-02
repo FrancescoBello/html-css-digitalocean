@@ -184,9 +184,11 @@ h5{
   border-color: #5b6987;
   background-color: white;
   padding: 10px 10px;
+  border-left: 3px solid
 }
 .thlist button:active {
   border-color: #0065f2;
+
 
 }
 .thlist button a{
@@ -200,13 +202,15 @@ text-decoration: none;
 .thlist button a:active{
   color: #031b4e;
   text-decoration: none;
+  border-color:  #0065f2;
 
 }
 @media screen and (max-width:992px) {
   .thlist button{
     display: inline-block;
     border-left: none;
-    
+    border-bottom: 3px solid;
+
 
   }
 
