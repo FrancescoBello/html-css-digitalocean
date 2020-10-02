@@ -212,10 +212,32 @@ text-align: center;
    color: #031b4e;
  }
 
-.screen{
+.screen img{
 width: 80%;
 }
+.screen::before{
+  content: '\f061';
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  font-weight: 600;
+  color: #5B6987;
+  position: absolute;
+  top: 35%;
+  left: 95%;
+  transform: translateY(-50%);
+}
 
+.screen::after{
+  content: '\f060';
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  font-weight: 600;
+  color: #5B6987;
+  position: absolute;
+  top: 35%;
+  right: 95%;
+  transform: translateY(-50%);
+}
 
 .fa-circle{
   color: #0069ff;
@@ -301,7 +323,7 @@ color: #5b6987;
 .seven{
   background-color: #f3f5f9;
   text-align: center;
-   h
+
 }
 .psvn{
    color: #031b4e;
@@ -315,6 +337,30 @@ color: #5b6987;
  background-color: white;
  border-radius: 10px;
 }
+.box3::before{
+  content: '\f061';
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  font-weight: 600;
+  color: #5B6987;
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  transform: translateY(-50%);
+}
+
+.box3::after{
+  content: '\f060';
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  font-weight: 600;
+  color: #5B6987;
+  position: absolute;
+  top: 35%;
+  right: 100%;
+  transform: translateY(-50%);
+}
+
 
 .fa-arrow{
   vertical-align: middle;
