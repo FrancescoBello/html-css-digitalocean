@@ -353,9 +353,11 @@ color: #5b6987;
     float: right;
 }
 
-}
 footer{
   background-color: hsl(220,95%,8%);
+
+}
+.footer-top{
   color: hsla(0,0%,100%,0.5);
 }
 
@@ -377,13 +379,22 @@ footer{
 .flist li a:hover {
    color: white;
 }
-hr{
+
+.hrfooter{
    color: hsla(0,0%,100%,0.5);
  }
 
+.footer-bottom{
+  color: hsla(0,0%,100%,0.5);
 
+}
 
-
-
+.social{
+  float: right;
+  font-size: 25px;
+}
+.social a{
+  margin-right: 15px;
+}
 
 .
