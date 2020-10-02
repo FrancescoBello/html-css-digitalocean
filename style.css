@@ -172,6 +172,42 @@ h5{
 .thtitle{
   color: #031b4e;
 }
+.thlist{
+  margin-top: 70px;
+}
+.thlist button {
+  display: block;
+  font-size: 20px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: #5b6987;
+  background-color: white;
+  padding: 10px 10px;
+}
+.thlist button:active {
+  border-color: #0065f2;
+
+}
+.thlist button a{
+  color: #5b6987;
+
+}
+.thlist button a:hover{
+text-decoration: none;
+}
+
+.thlist button a:active{
+  color: #031b4e;
+  text-decoration: none;
+
+}
+@media screen and (max-width:992px) {
+  .thlist button{
+    display: inline-block;
+  }
+
+}
 .block-img{
   margin-top: 50px;
 }
