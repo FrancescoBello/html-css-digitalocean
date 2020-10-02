@@ -184,6 +184,8 @@ h5{
   background-color: white;
   padding: 10px 10px;
   border-left: 3px solid #5b6987;
+  border-left: 3px solid
+
 }
 .thlist button:active {
   border-color: #0065f2;
@@ -209,6 +211,7 @@ text-decoration: none;
     display: inline-block;
     border-left: none;
     border-bottom: 3px solid #5b6987;;
+    border-bottom: 3px solid;
 
 
   }
